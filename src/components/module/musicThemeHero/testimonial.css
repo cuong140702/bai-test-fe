@@ -1,0 +1,21 @@
+.testimonial-slide {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  position: absolute;
+}
+
+.testimonial-slide.swiper-slide-active {
+  opacity: 1;
+  position: relative;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+  stroke: #fff !important;
+  fill: #fff !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+}
