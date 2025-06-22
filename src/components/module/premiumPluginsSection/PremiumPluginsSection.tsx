@@ -62,7 +62,6 @@ export default function PremiumPluginsSection() {
           ]}
         />
 
-        {/* Wolf Page Builder Card */}
         <FeatureCard
           iconUrl='https://preview.wolfthemes.store/app/uploads/sites/31/2019/11/new_avatar80_80.png'
           title='Wolf Page Builder Extension'

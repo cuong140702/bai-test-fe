@@ -1,6 +1,4 @@
-'use client'
-
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { MousePointer, Monitor, Heart } from 'lucide-react'
 
 const DemoPages = () => {
@@ -48,12 +46,8 @@ const DemoPages = () => {
           </div>
         </div>
 
-        {/* Right Column - Timeline */}
         <div className='relative flex flex-col items-center'>
-          {/* Vertical Line */}
           <div className='absolute left-10 top-10 bottom-10 w-0.5 bg-white'></div>
-
-          {/* Step 1 */}
           <div
             className={`flex items-center gap-6 mb-24 w-full transform transition-all duration-700 delay-100 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'
@@ -67,7 +61,6 @@ const DemoPages = () => {
             </div>
           </div>
 
-          {/* Step 2 */}
           <div
             className={`flex items-center gap-6 mb-24 w-full transform transition-all duration-700 delay-200 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'
@@ -81,7 +74,6 @@ const DemoPages = () => {
             </div>
           </div>
 
-          {/* Step 3 */}
           <div
             className={`flex items-center gap-6 w-full transform transition-all duration-700 delay-300 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'

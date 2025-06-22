@@ -254,15 +254,11 @@ const Hero = () => {
           >
             <span className='relative z-10'>VIEW DEMOS</span>
 
-            {/* Viền chạy quanh */}
             <span className='absolute inset-0 pointer-events-none' aria-hidden='true'>
-              {/* Top border */}
               <span className='absolute top-0 left-0 w-0 h-[1px] bg-black/70 group-hover:w-full transition-all duration-300 ease-linear'></span>
-              {/* Right border */}
+
               <span className='absolute top-0 right-0 w-[1px] h-0 bg-black/70 group-hover:h-full transition-all duration-300 ease-linear delay-150'></span>
-              {/* Bottom border */}
               <span className='absolute bottom-0 right-0 w-0 h-[1px] bg-black/70 group-hover:w-full transition-all duration-300 ease-linear delay-300'></span>
-              {/* Left border */}
               <span className='absolute bottom-0 left-0 w-[1px] h-0 bg-black/70 group-hover:h-full transition-all duration-300 ease-linear delay-500'></span>
             </span>
           </motion.button>

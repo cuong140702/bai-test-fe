@@ -1,4 +1,3 @@
-import React from 'react'
 import { DiscographyReleasePages } from '~/components/common'
 import { mockDaReleaseListing, mockDataDiscography } from '~/utils/mockData/MockData'
 

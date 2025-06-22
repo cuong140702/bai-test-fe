@@ -1,4 +1,3 @@
-import React from 'react'
 import { ContentComponent } from '~/components/common'
 import { mockDataInnerPages } from '~/utils/mockData/MockData'
 

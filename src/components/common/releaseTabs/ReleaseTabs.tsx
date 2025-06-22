@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ActiveEnum } from '~/utils/enum/common'
 import { ITabSwitcher } from '~/utils/interface/releaseTabs'
 

@@ -5,22 +5,19 @@ export default function AnimatedFooter() {
   const [isVisible, setIsVisible] = useState<boolean>(false)
   const [hasAnimated, setHasAnimated] = useState<boolean>(false)
   const [hideContent, setHideContent] = useState<boolean>(false)
-  const footerRef = useRef(null)
+  const footerRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
-    // Create an Intersection Observer to detect when footer is in view
     const observer = new IntersectionObserver(
       (entries) => {
         const [entry] = entries
 
-        // Only trigger animation if it's visible and hasn't animated before
         if (entry.isIntersecting && !hasAnimated) {
           setIsVisible(true)
-          setHasAnimated(true) // Ensure animation only happens once
+          setHasAnimated(true)
         }
       },
       {
-        // Trigger when at least 30% of the footer is visible
         threshold: 0.3
       }
     )

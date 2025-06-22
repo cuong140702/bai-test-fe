@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { IContentProps } from '~/utils/interface/content'
 import { containerVariants, itemVariants } from '~/utils/constants/common'

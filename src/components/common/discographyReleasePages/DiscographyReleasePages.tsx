@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { containerVariants, itemVariants } from '~/utils/constants/common'
 import { IDiscographyProps } from '~/utils/interface/discography'
